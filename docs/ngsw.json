@@ -1,0 +1,80 @@
+{
+  "configVersion": 1,
+  "timestamp": 1584109848680,
+  "index": "/agenda-beachtennis/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/agenda-beachtennis/favicon.ico",
+        "/agenda-beachtennis/index.html",
+        "/agenda-beachtennis/main-es2015.f10be8db23c1ed72a042.js",
+        "/agenda-beachtennis/main-es5.f10be8db23c1ed72a042.js",
+        "/agenda-beachtennis/manifest.webmanifest",
+        "/agenda-beachtennis/polyfills-es2015.442fa3cc45520cc0d518.js",
+        "/agenda-beachtennis/polyfills-es5.fd3af48698f9b02947d9.js",
+        "/agenda-beachtennis/runtime-es2015.0811dcefd377500b5b1a.js",
+        "/agenda-beachtennis/runtime-es5.0811dcefd377500b5b1a.js",
+        "/agenda-beachtennis/styles.715474f2b8b0c8a2aba9.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/agenda-beachtennis/assets/icons/icon-128x128.png",
+        "/agenda-beachtennis/assets/icons/icon-144x144.png",
+        "/agenda-beachtennis/assets/icons/icon-152x152.png",
+        "/agenda-beachtennis/assets/icons/icon-192x192.png",
+        "/agenda-beachtennis/assets/icons/icon-384x384.png",
+        "/agenda-beachtennis/assets/icons/icon-512x512.png",
+        "/agenda-beachtennis/assets/icons/icon-72x72.png",
+        "/agenda-beachtennis/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/agenda-beachtennis/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/agenda-beachtennis/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/agenda-beachtennis/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/agenda-beachtennis/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/agenda-beachtennis/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/agenda-beachtennis/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/agenda-beachtennis/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/agenda-beachtennis/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/agenda-beachtennis/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/agenda-beachtennis/index.html": "ecaf5458d43dc415646324acba7fea8d6d00fd00",
+    "/agenda-beachtennis/main-es2015.f10be8db23c1ed72a042.js": "63d211c7575a99f401653158c5d43b5fb5d9a52d",
+    "/agenda-beachtennis/main-es5.f10be8db23c1ed72a042.js": "72ffbc3935e02327e1816a58c311e616aead295c",
+    "/agenda-beachtennis/manifest.webmanifest": "aa2be6fa0250cef6df0e86b11682f96cab510b37",
+    "/agenda-beachtennis/polyfills-es2015.442fa3cc45520cc0d518.js": "8779ed8d9bf0580e1b50b352a9b8fd520be24433",
+    "/agenda-beachtennis/polyfills-es5.fd3af48698f9b02947d9.js": "29c3dfd16faa921dd49165f318f9eed12a2f3be7",
+    "/agenda-beachtennis/runtime-es2015.0811dcefd377500b5b1a.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/agenda-beachtennis/runtime-es5.0811dcefd377500b5b1a.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/agenda-beachtennis/styles.715474f2b8b0c8a2aba9.css": "5b65d27eafc39590a3286e800d48e3e70eb737e3"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
