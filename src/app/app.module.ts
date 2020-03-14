@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { AppComponent } from './app.component';
+import { PwaService } from './pwa.service';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,7 @@ import { AppComponent } from './app.component';
     MatIconModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
-  providers: [],
+  providers: [PwaService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
